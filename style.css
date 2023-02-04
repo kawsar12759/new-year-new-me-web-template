@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-items {
+    text-align: right;
+    padding: 10vh 0vw;
+    margin: 0 12vw 0 52vw;
+}
+
+#banner-title {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#banner-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#contact-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #F15B22;
+    height: 64px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+}
+
+.my-failures {
+    display: flex;
+    margin: 70px 100px 70px 60px;
+}
+
+.failure-items {
+    padding: 25vh 8vw;
+}
+
+.failure-title {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.failure-description {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-left: -40px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#check {
+    color: #16D887;
+}
+
+.plan-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.plans-list {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 7vh 10vw;
+}
+
+.plans {
+    text-align: center;
+    align-items: center;
+}
+
+.plan-name {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.plan-description {
+    margin-top: 10px;
+    color: #737272;
+    font-size: 25px;
+}
+
+.positive {
+    background-image: url(images/watch.png), url(images/gradient2.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: 100px 170px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.positive-items {
+    margin-right: 350px;
+}
+
+.positive-text {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.call-btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: white;
+    height: 64px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    background-color: #151414;
+    padding: 80px 150px;
+}
+
+.contact {
+    color: #F8F8F8;
+    width: 75vh;
+    margin-right: 50px;
+}
+
+.con-title {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.con-description {
+    font-size: 16px;
+}
+
+.contact-info {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.subscribe {
+    color: #F8F8F8;
+    padding-left: 150px;
+}
+
+#email {
+    color: white;
+    background-color: black;
+    padding: 20px 140px 20px 20px;
+    border: white solid 1px;
+    border-radius: 7px;
+
+}
+
+.subscribe-btn {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: white;
+    height: 60px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+}
+
+.con-icons {
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+
+}
